@@ -1,7 +1,7 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 header {
-    background: url(/img/header_background_v1.jpg) no-repeat center top;
+    background: url(https://yurii-skyba.github.io/test/img/header_background_v1.jpg) no-repeat center top;
     background-size: cover;
     height: 100vh;
 }
