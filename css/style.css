@@ -4,9 +4,6 @@ header {
     background: url(https://yurii-skyba.github.io/test/img/header_background_v1.jpg) no-repeat center top;
     background-size: cover;
     height: 100vh;
-    background: url(https://yurii-skyba.github.io/test/img/header_background_v1.jpg) no-repeat center top;
-    background-size: cover;
-    height: 100vh;
 }
 
 header .top-wrapper {
@@ -439,10 +436,3 @@ ul li {
 img {
     vertical-align: top;
 }
-<<<<<<< HEAD
-
-
-/*# sourceMappingURL=style.css.map */
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> c9b6a32314ecfe7eaf2f306b834bc5d21d6167ab
