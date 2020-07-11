@@ -1,156 +1,252 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-@mixin flex {
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    background: url(/img/header_background_v1.jpg) no-repeat center top;
-    background-size: cover;
-    height: 100vh;
-    .top-wrapper {
-        padding: 20px;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        .nav-items {
-            color: white;
-            text-transform: uppercase;
-            font-size: 18px;
-            font-weight: 700;
-            padding-right: 235px;
-            &:last-child {
-                padding-right: 115px;
-            }
-        }
-    }
-    section {
-        @include flex;
-        align-items: center;
-        text-align: center;
-    }
-    h1 {
-        color: white;
-        font-size: 24px;
-        padding: 20px 0px;
-    }
-}
-
-p {
-    font-size: 15px;
-    line-height: 25px;
-    padding-bottom: 20px;
-}
-
-.btn {
-    color: white;
-    width: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #01acac;
-    height: 40px;
-    text-transform: uppercase;
-}
-
-h1,
-h4 {
-    text-transform: uppercase;
-    text-align: end;
-    padding: $padding;
-}
-
-main {
-    font-family: 'Roboto', sans-serif, normal, 15px;
-    max-width: 960px;
-    margin: 0 auto;
-    .toolbar {
-        display: flex;
-        flex-direction: row-reverse;
-        padding: 10px;
-        input {
-            display: flex;
-            width: 200px;
-            height: 40px;
-            border: $border;
-            align-items: flex-end;
-            padding: 10px;
-            justify-self: end;
-        }
-    }
-    h1 {
-        font-size: 24px;
-    }
-    article {
-        margin-bottom: 20px;
-        display: flex;
-        justify-content: space-between;
-        padding: 10px;
-        background-color: #efefef;
-        div {
-            @include flex;
-            &:last-child {
-                align-items: flex-end;
-                padding: 10px;
-            }
-        }
-        .post {
-            padding: 10px;
-        }
-        .post-description {
-            padding-bottom: 10px;
-            color: #e9034f;
-            border: {
-                bottom: $border
-            }
-        }
-        h3 {
-            color: #0097a7;
-            text-transform: uppercase;
-            padding: $padding;
-        }
-    }
-    .about_us-img {
-        max-width: 960px;
-    }
-    form {
-        @include flex;
-        .label-item {
-            color: #0097af;
-            display: flex;
-            width: 470px;
-            flex-direction: row-reverse;
-        }
-        .form-items {
-            display: flex;
-            justify-content: space-between;
-            .form-item {
-                width: 470px;
-                height: 50px;
-                border: $border;
-            }
-        }
-        .text-area {
-            padding: $padding;
-            label {
-                color: #0097af;
-                display: flex;
-                flex-direction: row-reverse;
-            }
-            .textarea-item {
-                width: 100%;
-                height: 120px;
-                border: $border;
-            }
-        }
-        .form-btn {
-            padding: $padding;
-            display: flex;
-            flex-direction: row-reverse;
-        }
-    }
-}
-
-footer {
-    padding: 10px;
-}
+                @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+                @mixin flex {
+                    display: flex;
+                    flex-direction: column;
+                }
+                
+                header {
+                    background: url(/img/header_background_v1.jpg) no-repeat center top;
+                    background-size: cover;
+                    height: 100vh;
+                    .top-wrapper {
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-between;
+                        .nav-items {
+                            color: white;
+                            text-transform: uppercase;
+                            font-size: 18px;
+                            font-weight: 700;
+                            padding-right: 235px;
+                            &:last-child {
+                                padding-right: 115px;
+                            }
+                        }
+                    }
+                    section {
+                        @include flex;
+                        align-items: center;
+                        text-align: center;
+                    }
+                    h1 {
+                        color: white;
+                        font-size: 24px;
+                        padding: 20px 0px;
+                    }
+                }
+                
+                p {
+                    font-size: 15px;
+                    line-height: 25px;
+                    padding-bottom: 20px;
+                }
+                
+                .btn {
+                    color: white;
+                    width: 200px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #01acac;
+                    height: 40px;
+                    text-transform: uppercase;
+                }
+                
+                h1,
+                h4 {
+                    text-transform: uppercase;
+                    text-align: end;
+                    padding: $padding;
+                }
+                
+                main {
+                    font-family: 'Roboto', sans-serif, normal, 15px;
+                    max-width: 960px;
+                    margin: 0 auto;
+                    .toolbar {
+                        display: flex;
+                        flex-direction: row-reverse;
+                        padding: 10px;
+                        input {
+                            display: flex;
+                            width: 200px;
+                            height: 40px;
+                            border: $border;
+                            align-items: flex-end;
+                            padding: 10px;
+                            justify-self: end;
+                        }
+                    }
+                    h1 {
+                        font-size: 24px;
+                    }
+                    article {
+                        margin-bottom: 20px;
+                        display: flex;
+                        justify-content: space-between;
+                        padding: 10px;
+                        background-color: #efefef;
+                        div {
+                            @include flex;
+                            &:last-child {
+                                align-items: flex-end;
+                                padding: 10px;
+                            }
+                        }
+                        .post {
+                            padding: 10px;
+                        }
+                        .post-description {
+                            padding-bottom: 10px;
+                            color: #e9034f;
+                            border: {
+                                bottom: $border
+                            }
+                        }
+                        h3 {
+                            color: #0097a7;
+                            text-transform: uppercase;
+                            padding: $padding;
+                        }
+                    }
+                    .about_us-img {
+                        max-width: 960px;
+                    }
+                    form {
+                        @include flex;
+                        .label-item {
+                            color: #0097af;
+                            display: flex;
+                            width: 470px;
+                            flex-direction: row-reverse;
+                        }
+                        .form-items {
+                            display: flex;
+                            justify-content: space-between;
+                            .form-item {
+                                width: 470px;
+                                height: 50px;
+                                border: $border;
+                            }
+                        }
+                        .text-area {
+                            padding: $padding;
+                            label {
+                                color: #0097af;
+                                display: flex;
+                                flex-direction: row-reverse;
+                            }
+                            .textarea-item {
+                                width: 100%;
+                                height: 120px;
+                                border: $border;
+                            }
+                        }
+                        .form-btn {
+                            padding: $padding;
+                            display: flex;
+                            flex-direction: row-reverse;
+                        }
+                    }
+                }
+                
+                footer {
+                    padding: 10px;
+                }
+                
+                //responsive
+                @media screen and (max-width: 1200px) {
+                    header {
+                        .logo {
+                            width: 200px;
+                            img {
+                                max-width: 80%;
+                            }
+                        }
+                        section {
+                            padding-top: 300px;
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 992px) {
+                    header .top-wrapper .nav-items {
+                        font-size: 16px;
+                        font-weight: 700;
+                        padding-right: 25px;
+                    }
+                    main {
+                        font-family: 'Roboto', sans-serif, normal, 15px;
+                        max-width: 720px;
+                        margin: 0 auto;
+                        .about_us-img {
+                            max-width: 720px;
+                        }
+                    }
+                }
+                
+                @media screen and (max-width: 768px) {
+                    body h1 {
+                        font-size: 16px;
+                    }
+                    p {
+                        font-size: 10px;
+                        line-height: 15px;
+                    }
+                    .btn {
+                        width: 100px;
+                        height: 20px;
+                    }
+                    header .top-wrapper .nav-items {
+                        font-size: 14px;
+                        font-weight: 700;
+                        padding-right: 20px;
+                    }
+                    main {
+                        font-family: 'Roboto', sans-serif, normal, 15px;
+                        max-width: 480px;
+                        margin: 0 auto;
+                        article img {
+                            max-width: 50%;
+                        }
+                        .about_us-img {
+                            max-width: 480px;
+                        }
+                    }
+                    @media screen and (max-width: 480px) {
+                        body h1 {
+                            font-size: 12px;
+                        }
+                        p {
+                            font-size: 10px;
+                            line-height: 10px;
+                        }
+                        .btn {
+                            width: 100px;
+                            height: 20px;
+                        }
+                        header .top-wrapper .nav-items {
+                            font-size: 12px;
+                            font-weight: 700;
+                            padding-right: 5px;
+                        }
+                        main {
+                            font-family: 'Roboto', sans-serif, normal, 15px;
+                            max-width: 240px;
+                            margin: 0 auto;
+                            h3 {
+                                font-size: 10px;
+                            }
+                            .about_us-img {
+                                max-width: 240px;
+                            }
+                            form .form-items {
+                                width: 100px;
+                                &:last-child {
+                                    width: 100px;
+                                }
+                            }
+                        }
+                    }
+                }
