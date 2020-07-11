@@ -1,15 +1,12 @@
 ﻿@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 header {
-<<<<<<< HEAD
     background: url(https://yurii-skyba.github.io/test/img/header_background_v1.jpg) no-repeat center top;
     background-size: cover;
     height: 100vh;
-=======
-  background: url(https://yurii-skyba.github.io/test/img/header_background_v1.jpg) no-repeat center top;
-  background-size: cover;
-  height: 100vh;
->>>>>>> c9b6a32314ecfe7eaf2f306b834bc5d21d6167ab
+    background: url(https://yurii-skyba.github.io/test/img/header_background_v1.jpg) no-repeat center top;
+    background-size: cover;
+    height: 100vh;
 }
 
 header .top-wrapper {
