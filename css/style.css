@@ -31,7 +31,6 @@ header .top-wrapper .nav-items {
 header .top-wrapper .nav-items:last-child {
   padding-right: 115px;
 }
-
 header section {
   display: -webkit-box;
   display: -ms-flexbox;
