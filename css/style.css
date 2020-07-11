@@ -1,4 +1,4 @@
-﻿@charset "UTF-8";
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
 header {
     background: url(/img/header_background_v1.jpg) no-repeat center top;
@@ -325,10 +325,7 @@ footer {
     main .about_us-img {
         max-width: 240px;
     }
-    main form .form-items {
-        width: 100px;
-    }
-    main form .form-items:last-child {
+    main form .form-items .form-item {
         width: 100px;
     }
 }
