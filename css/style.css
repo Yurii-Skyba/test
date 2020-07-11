@@ -11,12 +11,7 @@ header .top-wrapper {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
     flex-direction: row;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -35,12 +30,7 @@ header section {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
     text-align: center;
 }
@@ -63,11 +53,7 @@ p {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
     align-items: center;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
     justify-content: center;
     background-color: #01acac;
     height: 40px;
@@ -91,9 +77,6 @@ main .toolbar {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
     padding: 10px;
 }
@@ -105,8 +88,6 @@ main .toolbar input {
     width: 200px;
     height: 40px;
     border: 1px solid #607d8b;
-    -webkit-box-align: end;
-    -ms-flex-align: end;
     align-items: flex-end;
     padding: 10px;
     justify-self: end;
@@ -121,8 +102,6 @@ main article {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 10px;
     background-color: #efefef;
@@ -132,15 +111,10 @@ main article div {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
 }
 
 main article div:last-child {
-    -webkit-box-align: end;
-    -ms-flex-align: end;
     align-items: flex-end;
     padding: 10px;
 }
@@ -169,9 +143,6 @@ main form {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
     flex-direction: column;
 }
 
@@ -181,9 +152,6 @@ main form .label-item {
     display: -ms-flexbox;
     display: flex;
     width: 470px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
 }
 
@@ -191,8 +159,6 @@ main form .form-items {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -211,9 +177,6 @@ main form .text-area label {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
 }
 
@@ -228,9 +191,6 @@ main form .form-btn {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: reverse;
-    -ms-flex-direction: row-reverse;
     flex-direction: row-reverse;
 }
 
@@ -353,7 +313,6 @@ footer {
   main form .form-items .form-item {
     width: 100px;
   }
->>>>>>> c9b6a32314ecfe7eaf2f306b834bc5d21d6167ab
 }
 
 
@@ -368,7 +327,6 @@ footer {
 *,
 *:before,
 *:after {
-    -webkit-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -396,9 +354,6 @@ body {
     font-size: 100%;
     line-height: 1;
     font-size: 14px;
-    -ms-text-size-adjust: 100%;
-    -moz-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
 }
 
 input,
@@ -435,8 +390,5 @@ ul li {
 
 img {
     vertical-align: top;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> ddfe83b37ba33c717fb5085402e58e06db511cc0
+
